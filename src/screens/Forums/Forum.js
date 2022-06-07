@@ -3,7 +3,7 @@ import {AiOutlineLike} from 'react-icons/ai';
 
 function Forum(props) {
     return (
-        <section className="py-10 2xl:py-12 bg-blueGray-100 rounded-t-10xl overflow-hidden">
+        <section className="py-12 2xl:py-12 bg-blueGray-100 rounded-t-10xl overflow-hidden">
             <div className="container px-4 mx-auto">
                 <span className="text-xs text-gray-300 uppercase tracking-wide">What people are asking</span>
                 <h1 className="mt-8 mb-12 md:mb-12 text-2xl md:text-10xl xl:text-11xl font-heading font-medium leading-tight">Recent Forums Posts</h1>
