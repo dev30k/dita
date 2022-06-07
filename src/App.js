@@ -1,10 +1,10 @@
-
 import Navbar from "./screens/Navbar/Navbar";
-import Routess from "./Routess";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./screens/Home/Home";
 import DocumentViewer from "./screens/Viewer/DocumentViewer";
 import React from "react";
+import Research from "./screens/ReasearchPapers/Research";
+import Forum from "./screens/Forums/Forum";
 
 function App() {
   return (
@@ -16,6 +16,9 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />}/>
                         <Route path='/document' element={<DocumentViewer />} />
+                        <Route path='/researchpapers' element={<Research />} />
+                        <Route path='/forum' element={<Forum />} />
+
                     </Routes>
             </div>
 
